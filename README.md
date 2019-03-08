@@ -17,3 +17,8 @@ This repository contains the projects I create during learning Spring Boot from 
 	- The Data JPA Starter
 	- The Mail Starter
 	- [And many more](https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters)
+
+### [4] [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
+- Spring Boot `Actuator` help us monitoring our app, gathering metrics, understanding traffic or the state of our database becomes trivial with this dependency.
+	- You can access all the actuators avialable via `http://localhost:8081/actuator`
+	- Some of the instructions are changed in versions 1.x & [2.x](https://docs.spring.io/spring-boot/docs/2.0.x/actuator-api/html/)
