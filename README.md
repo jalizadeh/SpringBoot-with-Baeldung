@@ -22,3 +22,7 @@ This repository contains the projects I create during learning Spring Boot from 
 - Spring Boot `Actuator` help us monitoring our app, gathering metrics, understanding traffic or the state of our database becomes trivial with this dependency.
 	- You can access all the actuators avialable via `http://localhost:8081/actuator`
 	- Some of the instructions are changed in versions 1.x & [2.x](https://docs.spring.io/spring-boot/docs/2.0.x/actuator-api/html/)
+
+
+### [5] [Configure a Spring Boot Web Application](https://www.baeldung.com/spring-boot-application-configuration)
+- Spring Boot can be easily configured for any aspect such as access port & address. These can be modified via `application.properties`, `yaml` file or `Java Class`.
