@@ -35,3 +35,7 @@ This repository contains the projects I create during learning Spring Boot from 
 		- Add in the `Application`
 		- Define a `WebServerFactoryCustomizer` class
 	- NOTE: the priority is important.
+
+
+### [7] [Spring Boot Change Context Path](https://www.baeldung.com/spring-boot-context-path)
+- Complete [document](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html) about external configurations

@@ -15,6 +15,8 @@ public class Application {
 	public static void main(String[] args) {
 		//SpringApplication.run(Application.class, args);
 		
+	    System.setProperty("server.servlet.context-path", "/javad");
+		
 		//and the class 'com.jalizadeh.basa.configuration.ServerPortCustomizer'
 		//has precedence over the 'application.properties'
 		SpringApplication app = new SpringApplication(Application.class);
