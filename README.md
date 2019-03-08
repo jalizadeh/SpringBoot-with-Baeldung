@@ -26,3 +26,12 @@ This repository contains the projects I create during learning Spring Boot from 
 
 ### [5] [Configure a Spring Boot Web Application](https://www.baeldung.com/spring-boot-application-configuration)
 - Spring Boot can be easily configured for any aspect such as access port & address. These can be modified via `application.properties`, `yaml` file or `Java Class`.
+
+
+### [6] [How to Change the Default Port in Spring Boot](https://www.baeldung.com/spring-boot-change-port)
+- It is possible via:
+	- Property file `application.properties` or `yaml` file
+	- Programmatic
+		- Add in the `Application`
+		- Define a `WebServerFactoryCustomizer` class
+	- NOTE: the priority is important.
