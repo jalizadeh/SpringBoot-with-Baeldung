@@ -46,3 +46,6 @@ This repository contains the projects I create during learning Spring Boot from 
 	- The property can be nested
 	- Validation helps us validate the properties without writing any `if-else` conditions
 	- NOTE: The configuration class must have `@Validated` annotation
+
+
+### [9] [Automatic Property Expansion with Spring Boot](https://www.baeldung.com/spring-boot-auto-property-expansion)
