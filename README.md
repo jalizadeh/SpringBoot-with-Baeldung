@@ -39,3 +39,10 @@ This repository contains the projects I create during learning Spring Boot from 
 
 ### [7] [Spring Boot Change Context Path](https://www.baeldung.com/spring-boot-context-path)
 - Complete [document](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html) about external configurations
+
+
+### [8] [Guide to @ConfigurationProperties in Spring Boot](https://www.baeldung.com/configuration-properties-in-spring-boot)
+- What if I need to have my own custom properties
+	- The property can be nested
+	- Validation helps us validate the properties without writing any `if-else` conditions
+	- NOTE: The configuration class must have `@Validated` annotation
