@@ -49,3 +49,8 @@ This repository contains the projects I create during learning Spring Boot from 
 
 
 ### [9] [Automatic Property Expansion with Spring Boot](https://www.baeldung.com/spring-boot-auto-property-expansion)
+
+
+### [10] [Spring Boot: Customize Whitelabel Error Page](https://www.baeldung.com/spring-boot-custom-error-page)
+- We can disable or customize the whole parts related to errors.
+	- Pages `error`, `404` & `500` are available by default.
