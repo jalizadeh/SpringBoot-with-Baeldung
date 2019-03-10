@@ -5,9 +5,9 @@ import java.util.Map;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
-import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -21,7 +21,8 @@ import com.jalizadeh.basa.configuration.model.Credentials;
 @Validated
 public class ConfigProperties {
 
-	@NotBlank
+	//@NotBlank is deprecated
+	@NotNull
 	private String hostName;
 	
 	@Min(1025)

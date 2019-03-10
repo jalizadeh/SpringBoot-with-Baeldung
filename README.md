@@ -54,3 +54,16 @@ This repository contains the projects I create during learning Spring Boot from 
 ### [10] [Spring Boot: Customize Whitelabel Error Page](https://www.baeldung.com/spring-boot-custom-error-page)
 - We can disable or customize the whole parts related to errors.
 	- Pages `error`, `404` & `500` are available by default.
+
+
+### [11] [Properties with Spring and Spring Boot](https://www.baeldung.com/properties-with-spring)
+- This is a complete course about different aspects of setting/using `Properties`:
+	- Java Annotation
+	- XML file (in Spring)
+	- My beloved `src/main/resources/application.properties`
+	- Test area can have it's own properties
+	- YAML based
+	- Command Line based
+	- Environment Variables
+	- Bean-based configuration [Spring]
+	- [Full document](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)
